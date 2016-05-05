@@ -1,0 +1,177 @@
+/*###############
+#### General ####
+###############*/
+
+html, body {
+  height: 100%;
+  color: #FFF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  font-weight: 100;
+  font-family: 'Lato', Arial;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.7) 0%,rgba(0,0,0,.45) 50%,rgba(0,0,0,.45) 50%,rgba(0,0,0,.7) 100%),
+    url('assets/backgrounds/bgimg1.jpg');
+  background-position: center 80%; // if you change the background-image perhaps you must change this.
+  background-color: #03B1F3;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content {
+  text-align: center;
+  display: inline-block;
+}
+
+/* TITLE */
+.title {
+  font-size: 96px;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+  letter-spacing: -2px;
+}
+
+/* SUBTITLE */
+.subtitle {
+  font-size: 28px;
+  margin-top: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+/* FIRST CHILD OF SUBTITLE: A SENTENCE IN BOTTOM OF TITLE */
+.subtitle div:first-child {
+  float: left;
+}
+
+.subtitle div:first-child .icon-heart {
+  font-size:22px;
+}
+
+/* FIRST CHILD OF SUBTITLE: ICONS */
+.subtitle div:nth-child(2) {
+  float: right;
+}
+
+.subtitle div:nth-child(2) div.divider {
+  width: 1px;
+  height: 24px;
+  margin-right: 3px;
+  margin-left: 3px;
+  display: inline-block;
+  background-color: rgba(255,255,255,.5);
+}
+
+.subtitle div:nth-child(2) a {
+  width:28px;
+  height:28px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-right: 3px;
+  margin-left: 3px;
+  text-decoration: none;
+  -webkit-transition: color 100ms ease;
+  -moz-transition: color 100ms ease;
+  -ms-transition: color 100ms ease;
+  -o-transition: color 100ms ease;
+  transition: color 100ms ease;
+}
+
+.subtitle div:nth-child(2) a:hover {
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-transition: color 100ms ease;
+  -moz-transition: color 100ms ease;
+  -ms-transition: color 100ms ease;
+  -o-transition: color 100ms ease;
+  transition: color 100ms ease;
+}
+
+.subtitle div:nth-child(2) a:focus {
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: color 100ms ease;
+  -moz-transition: color 100ms ease;
+  -ms-transition: color 100ms ease;
+  -o-transition: color 100ms ease;
+  transition: color 100ms ease;
+}
+
+.subtitle div:nth-child(2) span.icon-instagram {
+  font-size: 24px;
+}
+
+.subtitle div:nth-child(2) span.icon-telegram {
+  font-size: 26px;
+}
+
+.subtitle div:nth-child(2) span.icon-gitlab {
+  font-size: 26px;
+}
+
+
+/*#######################################
+#### overwrite on Hint (css tooltip) ####
+#######################################*/
+
+[data-hint]:after {
+  font-family: 'Lato';
+  text-shadow: none;
+  box-shadow: none;
+  background-color: #111;
+}
+
+.hint--bottom-left:before, .hint--bottom-right:before, .hint--bottom:before {
+    border-bottom-color: #111;
+}
+
+
+/*##################
+#### Icons Font ####
+##################*/
+
+@font-face {
+    font-family: 'social4mmnaderi';
+    src:url('assets/fonts/social4mmnaderi.eot?b58k1k');
+    src:url('assets/fonts/social4mmnaderi.eot?b58k1k#iefix') format('embedded-opentype'),
+        url('assets/fonts/social4mmnaderi.ttf?b58k1k') format('truetype'),
+        url('assets/fonts/social4mmnaderi.woff?b58k1k') format('woff'),
+        url('assets/fonts/social4mmnaderi.svg?b58k1k#social4mmnaderi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'social4mmnaderi' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {content: "\e907"}
+.icon-bitbucket:before {content: "\e90a"}
+.icon-gitlab:before {content: "\e908"}
+.icon-slack:before {content: "\e900"}
+.icon-github:before {content: "\e901"}
+.icon-dribbble:before {content: "\e90b"}
+.icon-facebook:before {content: "\e902"}
+.icon-linkedin:before {content: "\e903"}
+.icon-telegram:before {content: "\e904"}
+.icon-instagram:before {content: "\e905"}
+.icon-twitter:before {content: "\e906"}
+.icon-library:before {content: "\e02f"}
+.icon-mail:before {content: "\e0e1"}
+.icon-phone:before {content: "\e61d"}
