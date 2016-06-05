@@ -1,1 +1,20 @@
-﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Bahij Palatino Sans Arabic";src:url("Bahij_Palatino_Sans_Arabic-Regular.eot?") format("eot"),url("Bahij_Palatino_Sans_Arabic-Regular.woff") format("woff"),url("Bahij_Palatino_Sans_Arabic-Regular.ttf") format("truetype"),url("Bahij_Palatino_Sans_Arabic-Regular.svg#BahijPalatinoSansArabic-Regular") format("svg");font-weight:normal;font-style:normal;}
+﻿@font-face {
+    font-family: "Bahij Palatino Arabic";
+    src: url('http://mmnaderi.ir/assets/fonts/Bahij_Palatino_Arabic-Regular.eot');
+    src: url('Bahij_Palatino_Arabic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Bahij_Palatino_Arabic-Regular.svg#Bahij Palatino Arabic') format('svg'),
+    url('Bahij_Palatino_Arabic-Regular.woff') format('woff'),
+    url('Bahij_Palatino_Arabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Bahij Palatino Sans Arabic"; 
+    src: url('Bahij_Palatino_Sans_Arabic-Bold.eot');
+    src: url('Bahij_Palatino_Sans_Arabic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Bahij_Palatino_Sans_Arabic-Bold.svg#Bahij Palatino Sans Arabic') format('svg'),
+    url('Bahij_Palatino_Sans_Arabic-Bold.woff') format('woff'),
+    url('Bahij_Palatino_Sans_Arabic-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
