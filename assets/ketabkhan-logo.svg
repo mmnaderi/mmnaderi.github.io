@@ -2,7 +2,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 95" enable-background="new 0 9.513 50 50" xml:space="preserve">
     <style>
         path {
-            fill:#FFFFFF;
+            fill:#ecf0f1;
         }
     </style>
     <path d="M23.948,36.979h12.999v-3.166H23.948V36.979z M36.947,40.148H13.836v3.167h23.111V40.148z M36.947,46.48H13.836v3.168

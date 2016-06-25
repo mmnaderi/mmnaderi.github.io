@@ -11,24 +11,28 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: table;
+  /*display: table;*/
+  position: relative;
   font-weight: 100;
   font-family: 'Lato', Arial;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,.7) 0%,rgba(0,0,0,.45) 50%,rgba(0,0,0,.45) 50%,rgba(0,0,0,.7) 100%),
-    url('assets/backgrounds/bgimg1.jpg');
-  background-position: center 80%; // if you change the background-image perhaps you must change this.
-  background-color: #03B1F3;
+  /*background-image: linear-gradient(to bottom, rgba(0,0,0,.7) 0%,rgba(0,0,0,.45) 50%,rgba(0,0,0,.45) 50%,rgba(0,0,0,.7) 100%),
+    url('assets/backgrounds/bgimg1.jpg');*/
+  /*background-position: center 80%; !* if you change the background-image perhaps you must change this. *!*/
+  background-color: #03B1F3 ; /* #03B1F3 or #c03546 or #67ba6d */
   background-size: cover;
 }
 
 .container {
+  width:100%;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+  margin:0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .content {
-  text-align: center;
+  /*margin-top:-50px;*/
   display: inline-block;
 }
 
@@ -41,6 +45,7 @@ body {
 
 /* SUBTITLE */
 .subtitle {
+  height: 38px;
   font-size: 28px;
   margin-top: 8px;
   padding-right: 8px;
@@ -114,43 +119,64 @@ body {
   font-size: 26px;
 }
 
-.project {
-  position: absolute;
-  left:50%;
+.projects {
   display: block;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  width: 300px;
-  background-color: rgba(0,0,0,0.2);
-  padding:20px 30px 20px;
-  border-radius: 10px;
-  color:#FFF;
-  text-decoration: none;
-  transition: background-color, 200ms;
-}
-.project img {
-  float: left;
-  margin-right: 20px;
-}
-.project h3 {
-  text-transform: uppercase;
-}
-.project h3, .project h4 {
-  margin: 15px 0 15px;
-  line-height: 1;
-}
-a.project:hover {
-  background-color: rgba(0,0,0,0.3);
-  transition: background-color, 200ms;
-}
-a.project:focus {
-  background-color: rgba(0,0,0,0.4);
-  transition: background-color, 200ms;
+  padding: 50px 0 0;
 }
 
+.projects .project1, .projects .project2 {
+  font-weight:bold;
+  color: #ecf0f1;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 15px 0 10px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.projects img {
+  width:32px;
+  height:32px;
+  margin-top:9px;
+  position: absolute;
+}
+
+.projects span {
+  margin-left: 45px;
+}
+
+.projects .project1 {
+  margin-right: 8px;
+  background-color: #098b54;
+  transition: all 100ms ease;
+}
+
+.projects .project1:hover {
+  background-color: #097b47;
+  transition: all 100ms ease;
+}
+
+.projects .project2 {
+  margin-left: 8px;
+  background-color: #9b4dca;
+  transition: all 100ms ease;
+}
+
+.projects .project2:hover {
+  background-color: #8c47ba;
+  transition: all 100ms ease;
+}
+
+.projects .project1:focus {
+  background-color: #096b3c;
+  transition: all 100ms ease;
+}
+
+.projects .project2:focus {
+  background-color: #7e45aa;
+  transition: all 100ms ease;
+}
 
 /*#######################################
 #### overwrite on Hint (css tooltip) ####

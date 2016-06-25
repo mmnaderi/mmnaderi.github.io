@@ -32,13 +32,26 @@
             </a>
           </div>
         </div>
-        <a href="http://ketabkhanplus.ir" class="project">
-          <img width="80px" height="80px" src="assets/ketabkhan-logo.svg" />
-          <h3>Ketabkhan</h3>
-          <h4>Become a stodious</h4>
-        </a>
+        <div class="projects">
+          <a href="http://ketabkhanplus.ir" class="project1">
+            <img src="assets/ketabkhan-logo.svg" />
+            <span>Ketabkhan</span>
+          </a>
+          <a href="http://mmnaderi.ir/milligram-rtl" class="project2">
+            <img src="assets/milligram-logo.svg" />
+            <span>Milligram RTL</span>
+          </a>
+        </div>
       </div>
     </div>
+    <div id="particles-js"></div>
+    <script src="assets/particles.min.js" type="text/javascript"></script>
+    <script>
+      /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+      particlesJS.load('particles-js', 'assets/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
     <!-- Clicky.com Analytics Code -->
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
     <script type="text/javascript">try{ clicky.init(100646844); }catch(e){}</script>
