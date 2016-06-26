@@ -1,2 +1,2 @@
-I manage the DNS with [Namecheap](https://namecheap.com),
+I manage the DNS with [CloudFlare](https://cloudflare.com),
 and my analytics service is [Clicky](https://clicky.com).
