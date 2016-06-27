@@ -20,6 +20,7 @@ body {
   /*background-position: center 80%; !* if you change the background-image perhaps you must change this. *!*/
   background-color: #03B1F3 ; /* #03B1F3 or #c03546 or #67ba6d */
   background-size: cover;
+  transition: all 100ms;
 }
 
 .container {
@@ -176,6 +177,16 @@ body {
 .projects .project2:focus {
   background-color: #7e45aa;
   transition: all 100ms ease;
+}
+
+.ketabkhan-bgcolor {
+  background-color: rgba(9, 139, 84, 0.9);!important;
+  transition: all 200ms;
+}
+
+.milligram-bgoclor {
+  background-color: rgba(157, 77, 202, 0.9);!important;
+  transition: all 200ms;
 }
 
 /*#######################################
