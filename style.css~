@@ -189,10 +189,6 @@ body {
   transition: all 200ms;
 }
 
-#particles-js {
-  height: 98%;
-}
-
 /*#######################################
 #### overwrite on Hint (css tooltip) ####
 #######################################*/
