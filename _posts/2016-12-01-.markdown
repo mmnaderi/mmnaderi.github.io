@@ -1,0 +1,8 @@
+---
+published: true
+title: عنوان مطلب
+layout: post
+tags: [تگاول]
+categories: [دسته‌بندی۱]
+---
+این یک پست آزمایشی است.
