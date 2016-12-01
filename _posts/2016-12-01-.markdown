@@ -4,5 +4,6 @@ title: عنوان مطلب
 layout: post
 tags: [تگاول]
 categories: [دسته‌بندی۱]
+permalink: my-post-url
 ---
 این یک پست آزمایشی است.
